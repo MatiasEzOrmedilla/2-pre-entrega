@@ -60,7 +60,7 @@ h4{
 }
 
 .section{
-background-image: url(/img/Fondo\ section.jpg);
+    background-image: url(/img/section.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 450px;
@@ -138,4 +138,9 @@ position: relative;
 .grid{
     display: grid;
     grid-template-columns: (3, 1fr);
+}
+
+.logito{
+    display: flex;
+    justify-content: center;
 }
