@@ -127,6 +127,7 @@ position: relative;
     text-align: center;
     font-weight: bold;
     background-color: #05A79E;
+    padding-top: 2rem;
 }
 
 .nav-footer a{
@@ -143,4 +144,23 @@ position: relative;
 .logito{
     display: flex;
     justify-content: center;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.header h1{
+    color: #ffffff;
+}
+
+.main{
+    background-color: black;
+    padding: 2rem;
+}
+.main h2, h3, h4, p{
+    color: #ffffff;
 }
