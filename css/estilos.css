@@ -164,3 +164,7 @@ position: relative;
 .main h2, h3, h4, p{
     color: #ffffff;
 }
+
+.nosotros p, h1, h2, h3, h4, a {
+    color: black;
+}
