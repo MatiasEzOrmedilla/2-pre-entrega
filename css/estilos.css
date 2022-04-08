@@ -40,7 +40,14 @@ h4{
 .navegacion-principal{
   padding: 1rem;
   display: flex;
-  justify-content: space-around;
+flex-direction: row;}
+
+@media screen and (min-width:468){
+    .navegacion-principal{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+      }
 }
 
 .contenedor{
@@ -157,14 +164,30 @@ position: relative;
     color: #ffffff;
 }
 
-.main{
-    background-color: black;
-    padding: 2rem;
-}
-.main h2, h3, h4, p{
-    color: #ffffff;
-}
+
 
 .nosotros p, h1, h2, h3, h4, a {
     color: black;
 }
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.navegacion-principal{
+    padding: 1rem;
+    display: flex;
+  flex-direction: row;}
+  
+  @media screen and (min-width:468){
+      .navegacion-principal{
+          padding: 1rem;
+          display: flex;
+          justify-content: space-around;
+        }
+  }
+  
